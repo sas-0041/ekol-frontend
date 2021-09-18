@@ -30,16 +30,9 @@ export class HomePageComponent implements OnInit {
   }
 
   deneme() {
-    $('.slider').slick({
-      speed: 300,
-      slidesToShow: 1,
-      dots: true,
-      infinite: true,
-      slidesToScroll: 1,
-      arrows: true,
-      fade: true,
+    
 
-    });
+    
     
   }
 }
