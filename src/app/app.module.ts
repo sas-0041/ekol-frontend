@@ -21,6 +21,8 @@ import { ArchitectureComponent } from './component/architecture/architecture.com
 import { SentezSoftwareComponent } from './component/sentez-software/sentez-software.component';
 import { ButtonsComponent } from './component/buttons/buttons.component';
 import { DataLogComponent } from './component/data-log/data-log.component';
+import { WaiterSystemComponent } from './component/waiter-system/waiter-system.component';
+
 
 @NgModule({
   declarations: [
@@ -41,6 +43,7 @@ import { DataLogComponent } from './component/data-log/data-log.component';
     SentezSoftwareComponent,
     ButtonsComponent,
     DataLogComponent,
+    WaiterSystemComponent,
 
   ],
   imports: [

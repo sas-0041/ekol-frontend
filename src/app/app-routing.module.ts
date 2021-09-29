@@ -10,6 +10,7 @@ import { HomePageComponent } from './component/home-page/home-page.component';
 import { MeatsysComponent } from './component/meatsys/meatsys.component';
 import { SentezSoftwareComponent } from './component/sentez-software/sentez-software.component';
 import { ServerSystemComponent } from './component/server-system/server-system.component';
+import { WaiterSystemComponent } from './component/waiter-system/waiter-system.component';
 
 const routes: Routes = [
   {path:"",pathMatch:"full",component:HomePageComponent},
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:"server-system",component:ServerSystemComponent},
   {path:"architecture",component:ArchitectureComponent},
   {path:"sentez-software",component:SentezSoftwareComponent},
-  {path:"data-log",component:DataLogComponent}
+  {path:"data-log",component:DataLogComponent},
+  {path:"waiter-sys",component:WaiterSystemComponent}
 ];
 
 @NgModule({
